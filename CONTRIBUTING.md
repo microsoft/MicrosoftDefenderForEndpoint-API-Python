@@ -23,7 +23,7 @@ The pull request contains the differences from the origin branch, and it allows 
 
 **Part 1: A flow of the contribution process:**
 
-<IMAGE>
+![flow](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/process.png?token=ANGTEKXFUS2ILS5GW3LXZS25RNXRE)
 
 
 **Part 2: Demonstration of the contribution process using GitHub website**
@@ -47,25 +47,25 @@ Step 1 – create a branch from the production branch
 2.	Navigate to the folder where you want to create the new query’s file. (for example: General queries)
 3.	Press “Create new file” button.
 
-<IMAGE>
+![create new file](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/create%20new%20file.png?token=ANGTEKR3LOKSROX7QS6UPX25RNXTG)
 
 4.	Give your new file a name. like “psexec elevation to system.txt”
 5.	Paste you query in the “Edit new file” textbox.
 6.	In the propose new file section add a title and a justification for your change.
 
-<IMAGE>
+![propose new file](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/edit%20new%20file.png?token=ANGTEKRWPWZDTEFWIRCWQWC5RNXY6)
 
 7.	Press “propose new file” button.
 
 Pressing the button will automatically create a branch with your changes (the default name for the new branch is “patch-1”). In the next screen you can review your changes and you can press “Create pull request” button to create a pull request and propose merge your changes with main repository.
 
-<Image>
+![create pull](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/create%20pull.png?token=ANGTEKUP7KPJS2Q5V7IZKAC5RNX4M)
 
 Pressing the “Create pull request” button will create a pull request with all the changes in the new temporary branch and you could add title and justification for your change before submit the pull request.
 
-<IMAGE>
+![create pull 2](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/create%20pull%202.png?token=ANGTEKRNYT7WNSIELIANDHC5RNX52)
 
-That it. Once the community managers will approve your pull request, all your changes will be merge with the main repository.
+That's it. Once the community managers will approve your pull request, all your changes will be merged with the main repository.
 
 I chose to demonstrate on the WindowsDefenderATP-Hunting-Queries which are contains text files with advanced hunting queries. In the same way, you can add PS1 files (PowerShell files) for LiveResponse or API repositories. All from GitHub website without one line of code or command line.
 
@@ -75,11 +75,11 @@ MDATP’s GitHub repositories are under Microsoft open code license. Therefore, 
 
 Once you commit your pull request, if you required to sign on CLA you will see the following notification under your pull request:
 
-<IMAGE>
+![final 1](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/end%201.png?token=ANGTEKV7MOCHUDNQUI4DAYK5RNYCW)
 
 Once you will sign you will see the following notification:
 
-<IMAGE>
+![final 2](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/end%202.png?token=ANGTEKQBSHRSW5FLY5LRHHS5RNYFM)
 
 Happy contribution,
 

@@ -1,6 +1,6 @@
 ## How to join MDATP community on GitHub without being GitHub-Ninja
 
-![logo](https://i.imgur.com/cgvBroh.png)
+![logo](https://raw.githubusercontent.com/microsoft/MicrosoftDefenderATP-API-Python/master/for%20contribution%20guide/logo.png?token=ANGTEKWLD7NBMS7S6NF6YZC5RNXLO)
 
 In this article I am going to guide you how you can join MDATP community to use the experience of others and contribute from your own experience.
 

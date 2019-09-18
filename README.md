@@ -40,8 +40,8 @@ Please save your **Application key, Application ID and Tenant ID** while you cre
 ![grant admin consent](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/116955i429996F533E0E10F/image-size/large?v=1.0&px=999)
 Done! You have successfully added the required permissions to the application.
 
-## Step 2: Download the script and insert your credentials
-Download the isolation.py file (attached below).
+## Step 2: copy the script and insert your credentials
+Copy the content of the isolation.py file from this repository to your own python (.py) file.
 
 Remember when I asked you to save your **Application key, Application ID and Tenant ID** from the azure portal? We will now *embed them into the script*. 
 
@@ -51,9 +51,9 @@ This will allow the script to use the API freely, so you won’t have to pass th
 
 ## Step 3: Run the script
 
-Open Powershell, go to the *directory you saved the script in* and run the following command:
+Open Powershell, go to the *directory you saved your file in* and run the following command:
 
-```python
+```
 Python isolation.py “Comment regarding the isolation” Full
 ```
 

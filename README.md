@@ -3,7 +3,7 @@ page_type: sample
 languages:
 - python
 products:
-- dotnet
+- mdatp
 description: "MDATP Python automation - Automate machine isolation with Python script"
 ---
 

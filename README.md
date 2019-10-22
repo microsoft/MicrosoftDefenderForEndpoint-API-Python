@@ -79,7 +79,7 @@ Now, simply run the script, same as before, but pass the MachineID as the first 
 Python isolation.py 31bf22448170e3df65430b81fff82fbb30285cec “Comment regarding the isolation” Full
 ```
 
-The rest of the arguments are the same as above.
+The rest of the arguments are the same as above. 
 
 **You can use this functionality to build more (exciting) automations!**
 

@@ -14,7 +14,7 @@ This repository is a starting point for all Microsoft Defender's users to share 
 
 Here are a few examples we published:
 
-1. [Microsoft Defender ATP Python automation - Automate machine isolation with Python script](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Python-automation-Automate-machine-isolation-with-Python/ba-p/664077) ([Code](https://github.com/microsoft/MicrosoftDefenderATP-API-Python/blob/master/isolation.py))
+1. [Microsoft Defender ATP Python automation - Automate machine isolation with Python script](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Python-automation-Automate-machine-isolation-with-Python/ba-p/664077) ([Code](https://github.com/microsoft/MicrosoftDefenderATP-API-Python/blob/master/MS%20samples/isolation.py))
 
 2. [Automating Security Operations Using Microsoft Defender ATP APIs with Python and Jupyter Notebooks](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/Automating-Security-Operations-Using-Windows-Defender-ATP-APIs/ba-p/294434) 
 

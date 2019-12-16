@@ -10,7 +10,7 @@ description: "Repository for Python scripts using MDATP public API"
 # Microsoft Defender ATP Python API samples
 
 Welcome to the repository for Python scripts using Microsoft Defender public API!
-This repository is a starting point for all Microsoft Defender's users to share content and sample python code that utilizes Microsoft Defender API to enhance and automate your security.
+This repository is a starting point for all Microsoft Defender's users to share content and sample Python code that utilizes Microsoft Defender API to enhance and automate your security.
 
 Here are a few examples we published:
 
@@ -27,5 +27,7 @@ For more info on our available APIs - go to our [API documentation](https://docs
 ## Additional MDATP repositories
 We have more repositories for different use cases, we invite you to explore and contribute.
 * [PowerShell scripts using Microsoft Defender ATP public API](https://github.com/microsoft/MicrosoftDefenderATP-API-PowerShell)
+
 * [Microsoft Defender ATP Advanced Hunting (AH) sample queries](https://github.com/microsoft/WindowsDefenderATP-Hunting-Queries)
+
 * [PowerBI reports using Microsoft Defender ATP data](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)

@@ -4,7 +4,7 @@ languages:
 - python
 products:
 - mdatp
-description: "Repository for Python scripts using MDATP public API"
+description: "Repository for Python scripts using Microsoft Defender ATP public API"
 ---
 
 # Microsoft Defender ATP Python API samples

@@ -24,7 +24,7 @@ We welcome you to share and contribute, check out the guide in the [CONTRIBUTING
 ## API documentation
 For more info on our available APIs - go to our [API documentation](https://docs.microsoft.com/en-gb/windows/security/threat-protection/microsoft-defender-atp/exposed-apis-list)
 
-## Additional MDATP repositories
+## Additional Microsoft Defender ATP repositories
 We have more repositories for different use cases, we invite you to explore and contribute.
 * [PowerShell scripts using Microsoft Defender ATP public API](https://github.com/microsoft/MicrosoftDefenderATP-API-PowerShell)
 

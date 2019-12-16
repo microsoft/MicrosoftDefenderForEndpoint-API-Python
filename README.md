@@ -4,7 +4,7 @@ languages:
 - python
 products:
 - mdatp
-description: "MDATP Python automation - Automate machine isolation with Python script"
+description: "Repository for Python scripts using MDATP public API"
 ---
 
 # MDATP Python automation

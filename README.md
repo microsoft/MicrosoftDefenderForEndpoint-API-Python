@@ -21,11 +21,11 @@ Here are a few examples we published:
 ## Share your work
 We welcome you to share and contribute, check out the guide in the [CONTRIBUTING.md file](https://github.com/microsoft/MicrosoftDefenderATP-API-Python/blob/master/CONTRIBUTING.md).
 
+## API documentation
+For more info on our available APIs - go to our [API documentation](https://docs.microsoft.com/en-gb/windows/security/threat-protection/microsoft-defender-atp/exposed-apis-list)
+
 ## Additional MDATP repositories
 We have more repositories for different use cases, we invite you to explore and contribute.
 * [PowerShell scripts using Microsoft Defender ATP public API](https://github.com/microsoft/MicrosoftDefenderATP-API-PowerShell)
 * [Microsoft Defender ATP Advanced Hunting (AH) sample queries](https://github.com/microsoft/WindowsDefenderATP-Hunting-Queries)
 * [PowerBI reports using Microsoft Defender ATP data](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
-
-## API documentation
-For more info on our available APIs - go to our [API documentation](https://docs.microsoft.com/en-gb/windows/security/threat-protection/microsoft-defender-atp/exposed-apis-list)

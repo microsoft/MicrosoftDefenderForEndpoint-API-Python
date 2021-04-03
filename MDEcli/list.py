@@ -30,7 +30,7 @@ class List:
 
             # Empty results
             if not jsonResponse['value']:
-                print('No automated investigations found.')
+                print('Nothing done.')
             
             else:
                 # CSV & print        
@@ -61,8 +61,13 @@ class List:
         req = urllib.request.Request(url=url, headers=headers)
         response = urllib.request.urlopen(req)
         jsonResponse = json.loads(response.read())
+
+        # Empty results
+        if not jsonResponse['value']:
+            print('Nothing done.')
         
-        print('\n')
-        for item in jsonResponse.items():
-            print(item)
+        else:
+            print('\n')
+            for item in jsonResponse.items():
+                print(item)
         print('\n')

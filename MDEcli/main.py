@@ -247,7 +247,7 @@ elif args.Commands == 'score':
         tenantId = input('Enter your Tenant ID: ')
         appId = input('Enter your application ID: ')
         appSecret = getpass.getpass('Enter your application Secret (does not show in cli): ')
-        list_score = list.List(tenantId, appId, appSecret, 'exposureScore')
+        list_score = list.List(tenantId, appId, appSecret, 'exposureScore', '')
         list_score.list_no_csv()
     else:
         parser.print_help(sys.stderr)

@@ -1,3 +1,4 @@
 # Windows Latest release
-## Beta - 03/04/2021
+## Beta version
+### Released on 03/04/2021
 MDEcli.exe

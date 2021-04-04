@@ -1,9 +1,11 @@
 # MDEcli
-
+![image](https://user-images.githubusercontent.com/76814237/113495471-f72acc00-94e9-11eb-93de-e04472ed066c.png)
 ## About
-
+MDEcli is a Microsoft Defender Endpoint (MDE) enhancer allowing organizations to use the advanced features of the MDE API to achieve more faster. This tool, fully developed in Python aims to allow organizations to perform tasks on multiple machines in a easy and fast way. Built on the API structure above, organizations can leverage the power MDE with the reach and flexibility of the API. This tool also generates CSV files (from --list subcommand) that can be worked in Excel or imported directly to PowerBI.
 ## Config
-
+To use MDEcli you'll need to create an Application Registration on your Azure tenant. Since this tool is fully integrated, be sure to allow enough permissions to WindowsDefenderATP from App Registartion.
+## Usage
+Please use help to understand the structure of commands and subcommands. Subcommands, specially when using "machine-actions", they require user to input a filename (CSV format) and a column, can be leverage by using the CSV files created with any "--list" subcommand. Just make sure you identify the proper column with the information required.
 ## Help
 On PS or CMD:
 ````

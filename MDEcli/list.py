@@ -33,19 +33,22 @@ class List:
                 print('Nothing done.')
             
             else:
-                # CSV & print        
-                fields = jsonResponse['value'][0].keys()
+                try:
+                    # CSV & print        
+                    fields = jsonResponse['value'][0].keys()
 
-                with open(self.filename, 'w', newline='') as csvfile:
-                    writer = csv.DictWriter(csvfile, fieldnames = fields)
-                    writer.writeheader()
-                    writer.writerows(jsonResponse['value'])
-                
-                for index, item in enumerate(jsonResponse['value']):
-                    print('\n')
-                    print(item)
-                
-                print(f'\nFull results can be imported to PowerBI from {self.filename}\n')
+                    with open(self.filename, 'w', newline='') as csvfile:
+                        writer = csv.DictWriter(csvfile, fieldnames = fields)
+                        writer.writeheader()
+                        writer.writerows(jsonResponse['value'])
+                    
+                    for index, item in enumerate(jsonResponse['value']):
+                        print('\n')
+                        print(item)
+                    
+                    print(f'\nFull results can be imported to PowerBI from {self.filename}\n')
+                except Exception as e:
+                    print(f'Someting went wrong:{e}')
     
     def list_no_csv(self):
         login_MDEcli = login.Login(self.tenantId, self.appId, self.appSecret)
@@ -63,7 +66,7 @@ class List:
         jsonResponse = json.loads(response.read())
 
         # Empty results
-        if not jsonResponse['value']:
+        if not jsonResponse:
             print('Nothing done.')
         
         else:

@@ -269,7 +269,7 @@ elif args.Commands == 'vulnerabilities':
         tenantId = input('Enter your Tenant ID: ')
         appId = input('Enter your application ID: ')
         appSecret = getpass.getpass('Enter your application Secret (does not show in cli): ')
-        list_vulnerabilities = list.List(tenantId, appId, appSecret, 'vulnerabilities', 'vulnerabilities.csv')
+        list_vulnerabilities = list.List(tenantId, appId, appSecret, 'vulnerabilities/machinesVulnerabilities', 'vulnerabilities.csv')
         list_vulnerabilities.list()
     else:
         parser.print_help(sys.stderr)
